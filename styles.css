@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: white;
 }
@@ -30,6 +34,7 @@ body{
     bottom: 50%;
 }
 
+/* Header Stylings */
 .header {
     padding-top: 2%;
 }
@@ -48,23 +53,23 @@ body{
     font-size: 30px;
 }
 
+/* Top Page Links */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
     text-align: center;
 }
 
+/* About Me div */
 .about_me {
     padding-top: 5%;
 }
 
+/* Paragraph stylings */
 p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-}
-
-a {
-    color: black;
+    margin-top: 15px;
 }
 
 a:hover {
@@ -75,29 +80,55 @@ a:visited {
     color: blue;
 }
 
+/* Avatar image */
 .Nicolas {
-    max-width: 500px;
+    max-width: 300px;
     max-height: 300px;
+    border-radius: 10px;
+    margin-left: 2%
+}
+
+.about_me {
+    background-color: rgb(255, 126, 227)
 }
 
 .my_projects {
     margin-top: 5%;
+    background-color: rgb(101, 173, 255);
 }
 
+/* Construction Image */
 .Construction {
-    max-width: 500px;
+    max-width: 300px;
     max-height: 300px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+/* Contact Image */
 .Contact {
-    max-width: 500px;
+    max-width: 300px;
     max-height: 300px;
+    border-radius: 5px;
 }
 
+/* Contact div */
 .contact_me {
     margin-top: 5%;
+    background-color: rgb(255, 126, 227);
 }
 
+/* Footer div */
 .footer {
     margin-top: 8%;
+    text-align: center;
+}
+
+/* Smartphone resize */
+@media (max-width: 480px) {
+    body {
+        background-color: white;
+    }
 }
