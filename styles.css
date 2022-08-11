@@ -5,15 +5,99 @@
     margin: 0;
 }
 
+body{
+    background-color: white;
+}
+
+/* Hero image with gradient */
+.hero {
+    background-image: (url());
+    /* Scale and center */
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    top: 50%;
+    bottom: 50%;
+}
+
 .header {
-    color: rgb(0, 0, 0);
-    background-color: rgb(71, 199, 199);
+    padding-top: 2%;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
 }
 
 .header div ul li {
     display: inline-block;
-    margin-left: 15px;
-    font-size: 25px;
-    text-decoration: none;
+    margin-left: 25px;
+    text-align: center;
+}
+
+.about_me {
+    padding-top: 5%;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgb(62, 162, 255);
+}
+
+a:visited {
+    color: blue;
+}
+
+.Nicolas {
+    max-width: 500px;
+    max-height: 300px;
+}
+
+.my_projects {
+    margin-top: 5%;
+}
+
+.Construction {
+    max-width: 500px;
+    max-height: 300px;
+}
+
+.Contact {
+    max-width: 500px;
+    max-height: 300px;
+}
+
+.contact_me {
+    margin-top: 5%;
+}
+
+.footer {
+    margin-top: 8%;
 }
