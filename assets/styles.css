@@ -133,3 +133,10 @@ a:visited {
         background-color: white;
     }
 }
+
+/* Tablet resize */
+@media (max-width: 980px) {
+    body {
+        background-color: white;
+    }
+}
